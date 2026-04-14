@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Happy Kushwaha | Portfolio</title>
+
+  <!-- Bootstrap + Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons/font/bootstrap-icons.css" rel="stylesheet">
+
+  <style>
+    body { font-family: 'Segoe UI', sans-serif; scroll-behavior: smooth; }
+    .hero {
+      background: linear-gradient(135deg, #0d6efd, #6610f2);
+      color: white;
+      padding: 80px 0;
+      text-align: center;
+    }
+    .section { padding: 60px 0; }
+    .project-card {
+      border-radius: 15px;
+      padding: 20px;
+      transition: 0.3s;
+      box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+    }
+    .project-card:hover {
+      transform: translateY(-10px);
+    }
+    .btn-custom {
+      border-radius: 30px;
+      padding: 10px 25px;
+    }
+    footer {
+      background: #111;
+      color: white;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Happy</a>
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
+        <li class="nav-item"><a class="nav-link" href="#projects">Projects</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Hero Section -->
+<section class="hero">
+  <h1>Hi, I'm Happy Kushwaha 👋</h1>
+  <p>B.Tech CSE Student | Python Developer | Data Analyst</p>
+  <a href="#projects" class="btn btn-light btn-custom mt-3">View My Work</a>
+  <a href="#" class="btn btn-outline-light btn-custom mt-3">Download Resume</a>
+</section>
+
+<!-- About -->
+<section id="about" class="section container text-center">
+  <h2>About Me</h2>
+  <p>I am a passionate Computer Science student skilled in Python, Web Development, and Data Analysis. I focus on building real-world projects that solve practical problems.</p>
+</section>
+
+<!-- Skills -->
+<section id="skills" class="section bg-light text-center">
+  <div class="container">
+    <h2>Skills</h2>
+    <div class="row mt-4">
+      <div class="col-md-3">Python</div>
+      <div class="col-md-3">HTML, CSS</div>
+      <div class="col-md-3">SQL</div>
+      <div class="col-md-3">Power BI</div>
+    </div>
+  </div>
+</section>
+
+<!-- Projects -->
+<section id="projects" class="section container">
+  <h2 class="text-center">Projects</h2>
+  <div class="row mt-4">
+    <div class="col-md-6">
+      <div class="project-card">
+        <h4>Hostel Seat Availability System</h4>
+        <p>Django-based web app to check hostel seat availability.</p>
+        <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+        <a href="#" class="btn btn-dark btn-sm">GitHub</a>
+      </div>
+    </div>
+    <div class="col-md-6">
+      <div class="project-card">
+        <h4>AI Chatbot for Grievance</h4>
+        <p>Python chatbot for handling complaints efficiently.</p>
+        <a href="#" class="btn btn-primary btn-sm">Live Demo</a>
+        <a href="#" class="btn btn-dark btn-sm">GitHub</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact -->
+<section id="contact" class="section bg-light text-center">
+  <div class="container">
+    <h2>Contact</h2>
+    <p><i class="bi bi-envelope"></i> happykumar6387000@gmail.com</p>
+    <p><i class="bi bi-telephone"></i> 6387000690</p>
+    <p><i class="bi bi-github"></i> https://github.com/yourprofile</p>
+    <p><i class="bi bi-linkedin"></i> https://linkedin.com/in/yourprofile</p>
+  </div>
+</section>
+
+<!-- Footer -->
+<footer>
+  <p>© 2026 Happy Kushwaha | All Rights Reserved</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
